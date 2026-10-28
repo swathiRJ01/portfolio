@@ -10,8 +10,8 @@ export const profile = {
   about: "Aspiring Full Stack Developer with a detail-oriented mindset, currently pursuing Full Stack Development training. Passionate about building responsive, user-friendly web applications. Strong problem-solving skills, adaptable, and always eager to learn new technologies.",
   phone: "+91 9482459867",
   email: "swathijayanidhi@gmail.com",
-  github: "#", // TODO: your GitHub URL
-  linkedin: "#", // TODO: your LinkedIn URL
+  github: "https://github.com/swathiRJ01", // TODO: your GitHub URL
+  linkedin: "https://www.linkedin.com/in/swathi-r-j-b7a34a335/", // TODO: your LinkedIn URL
   resume: "/resume.pdf", // put resume.pdf inside /public
   stats: [{ n: "1", l: "Internship" }, { n: "3+", l: "Projects" }, { n: "4", l: "Languages spoken" }]
 };
