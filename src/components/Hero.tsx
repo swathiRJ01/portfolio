@@ -30,7 +30,12 @@ export default function Hero() {
           <p className="text-muted mt-4 max-w-lg">{profile.intro}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#projects" className="btn grad-bg">View Projects</a>
-            <a href='public/Swathi.pdf' download className="btn btn-ghost"><Download size={16} />Download Resume</a>
+          
+<a href="/Swathi.pdf" download="Swathi-Resume.pdf" className="btn btn-ghost">
+  <Download size={16} />
+  Download Resume
+</a>
+
             <a href="#contact" className="btn btn-ghost">Contact Me</a>
           </div>
           <div className="mt-8 flex gap-3">
