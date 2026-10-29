@@ -19,9 +19,6 @@ export default function Hero() {
   const typed = useTyping(profile.roles);
   return (
     <section id="top" className="relative flex min-h-screen items-center overflow-hidden px-5 pt-24">
-      <div className="blob h-96 w-96 bg-violet1 -top-20 -left-20" />
-      <div className="blob h-96 w-96 bg-fuchsia1 top-1/3 right-0" style={{ animationDelay: "-5s" }} />
-      <div className="blob h-80 w-80 bg-cyan1 bottom-0 left-1/3" style={{ animationDelay: "-9s" }} />
       <div className="relative z-10 mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-[1.4fr_1fr]">
         <div>
           <p className="text-muted mb-3">Hi, I'm</p>

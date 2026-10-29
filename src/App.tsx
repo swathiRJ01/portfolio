@@ -1,16 +1,18 @@
 import { useEffect, useState } from "react";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { BackToTop, CursorGlow, Navbar, ScrollProgress } from "./components/Effects";
+import Background from "./components/Background";
 import Hero from "./components/Hero";
 import { About, Certifications, Education, Experience, Projects, Skills } from "./components/Sections";
 import Contact from "./components/Contact";
 import { profile } from "./data";
 
 export default function App() {
-  const [light, setLight] = useState(false); // kept in state only
+  const [light, setLight] = useState(false);
   useEffect(() => { document.documentElement.classList.toggle("light", light); }, [light]);
   return (
     <>
+      <Background light={light} />
       <ScrollProgress /><CursorGlow />
       <Navbar light={light} toggle={() => setLight((l) => !l)} />
       <main>
